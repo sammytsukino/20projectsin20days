@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch the villain!</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch the villain</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Who's your "favorite" villain?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Kyubey</p>
+            <img src="https://res.cloudinary.com/dsy30p7gf/image/upload/v1756984661/Capa_3villains_omt4lz.png" alt="" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Black Luna-P</p>
+            <img src="https://res.cloudinary.com/dsy30p7gf/image/upload/v1756984661/Capa_2villains_uv96s6.png" alt="" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Monokuma</p>
+            <img src="https://res.cloudinary.com/dsy30p7gf/image/upload/v1756984661/Capa_6villains_ekprtd.png" alt="" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Fav</p>
+            <img src="https://res.cloudinary.com/dsy30p7gf/image/upload/v1756984661/Capa_5villains_n8lcln.png" alt="" />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="screen" id="game-container" >
+      <h3 id="time" class="time">Time: 00:00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Are you annoyed yet? <br />
+        You are playing an impossible game!
+      </h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
